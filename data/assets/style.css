@@ -1,0 +1,92 @@
+
+/* STATPRO - Light Modern Theme */
+
+:root {
+    --primary: #2563EB;
+    --primary-dark: #1D4ED8;
+    --sidebar: #172554;
+    --background: #F5F7FB;
+    --surface: #FFFFFF;
+    --text: #172033;
+    --muted: #64748B;
+    --border: #E2E8F0;
+}
+
+.stApp {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: "Inter", sans-serif;
+}
+
+/* Main content */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1450px;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: var(--sidebar);
+}
+
+[data-testid="stSidebar"] * {
+    color: #FFFFFF !important;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: var(--text);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 9px;
+    padding: 0.55rem 1.2rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover {
+    background-color: var(--primary-dark);
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Metric cards */
+[data-testid="stMetric"] {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab"] {
+    font-weight: 600;
+}
+
+/* Dataframes */
+[data-testid="stDataFrame"] {
+    background: var(--surface);
+    border-radius: 10px;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"] {
+    background: var(--surface);
+    border: 1px dashed #94A3B8;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+/* Dividers */
+hr {
+    border-color: var(--border);
+}
