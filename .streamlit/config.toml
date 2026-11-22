@@ -1,0 +1,20 @@
+[theme]
+base = "light"
+primaryColor = "#605BFF"
+backgroundColor = "#FAFAFB"
+secondaryBackgroundColor = "#F4F4FA"
+textColor = "#030229"
+font = "Nunito:https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap"
+baseRadius = "10px"
+showSidebarBorder = true
+borderColor = "#EEEEF4"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F4FA"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
